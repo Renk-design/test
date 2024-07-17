@@ -3,15 +3,24 @@ import { register } from '@tokens-studio/sd-transforms';
 
 // sd-transforms, 2nd parameter for options can be added
 // See docs: https://github.com/tokens-studio/sd-transforms
-register(StyleDictionary);
+register(StyleDictionary, {
+  expand: {
+    composition: false,
+    typography: false,
+    border: false,
+    shadow: false,
+  },
+  excludeParentKeys: true,
+});
 
 const sd = new StyleDictionary({
-  source: ['studio.json', 'build/js/variables.js'],
+  source: ['tokens.json'],
   preprocessors: ['tokens-studio'],
   platforms: {
     css: {
       transformGroup: 'tokens-studio',
-      prefix: 'sd',
+      transforms: ['name/kebab'],
+      prefix: 'rd',
       buildPath: 'build/css/',
       files: [
         {
