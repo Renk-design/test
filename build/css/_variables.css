@@ -3,7 +3,7 @@
  */
 
 :root {
-  --rd-white-100: #000000;
+  --rd-white-100: #ffffff;
   --rd-gray-5: #fafafa;
   --rd-gray-10: #f4f4f4;
   --rd-gray-20: #e0e0e0;
@@ -66,7 +66,7 @@
   --rd-purple-90: #31135e;
   --rd-purple-100: #1c0f30;
   --rd-text-primary: #161616;
-  --rd-text-primary-on-color: #000000;
+  --rd-text-primary-on-color: #ffffff;
   --rd-text-secondary: #393939;
   --rd-text-tertiary: #8d8d8d;
   --rd-text-link-link: #0f62fe;
@@ -83,14 +83,14 @@
   --rd-text-tonal: #f6f2ff;
   --rd-text-tonal-hover: #e8daff;
   --rd-text-tonal-pressed: #d4bbff;
-  --rd-background-primary: #000000;
+  --rd-background-primary: #ffffff;
   --rd-background-critical-subtle: #ffd7d9;
   --rd-background-critical-critical: #da1e28;
   --rd-background-critical-critical-hover: #a2191f;
   --rd-background-critical-critical-pressed: #a2191f;
   --rd-background-critical-subtle-hover: #ff8389;
   --rd-background-secondary: #f4f4f4;
-  --rd-background-input-input: #000000;
+  --rd-background-input-input: #ffffff;
   --rd-background-input-input-hovered: #fafafa;
   --rd-background-input-input-pressed: #f4f4f4;
   --rd-background-accent: #8a3ffc;
@@ -123,7 +123,7 @@
   --rd-icons-primary: #161616;
   --rd-icons-secondary: #393939;
   --rd-icons-tertiary: #6f6f6f;
-  --rd-icons-primary-on-color: #000000;
+  --rd-icons-primary-on-color: #ffffff;
   --rd-icons-positive: #198038;
   --rd-icons-critical: #da1e28;
   --rd-icons-warning: #8e6a00;
