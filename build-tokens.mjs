@@ -29,6 +29,18 @@ const sd = new StyleDictionary({
         },
       ],
     },
+    scss: {
+      transformGroup: 'tokens-studio',
+      transforms: ['name/kebab'],
+      prefix: 'rd',
+      buildPath: 'build/scss/',
+      files: [
+        {
+          destination: '_variables.scss',
+          format: 'scss/variables',
+        },
+      ],
+    },
   },
 });
 // optionally, cleanup files first..
